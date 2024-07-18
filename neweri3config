@@ -206,4 +206,9 @@ client.unfocused        #0d1010 #212121 #d9d9d9 #424242 #063340
 client.focused          #4a4a4a #4a4a4a #c9c9c9 #4a4a4a #4a4a4a    
 
 
-bindsym $mod+Shift+d exec chromium
+bindsym $mod+Shift+d exec firefox 
+bindsym $mod+Shift+s exec thunderbird
+bindsym $mod+Shift+a exec xournalpp
+bindsym $mod+Shift+m exec firefox --new-window --url https://messages.google.com/web/conversations
+bindsym $mod+Shift+f exec konsole -e 'ranger'
+bindsym $mod+Shift+v exec konsole -e 'vim .'
